@@ -15,6 +15,18 @@
   padding: 4px 32px;
 }
 
+.header.left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.header.right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
 ul {
   display: flex;
   gap: 8px;
